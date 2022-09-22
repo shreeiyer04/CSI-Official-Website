@@ -239,7 +239,7 @@ circle {
 .inovation-inner-card-description {
   display: inline-block;
   color: #fff;
-  font-weight: 300;
+  /* font-weight: 300; */
   margin: 10px 20px 10px 0;
 }
 
@@ -273,9 +273,19 @@ circle {
 
 @media (max-width:426px) {
   .inovation-inner-card-description {
-    font-size: 25px;
+    /* font-size: 25px; */
   }
-
+  .inovation-inner-card-text {
+    width: 100%;
+  }
+  .imgm{
+    height: 100%;
+    width: 100%;
+  }
+  .imagem{
+    height: 50%;
+    margin-bottom: 5%;
+  }
   .swiper-slide {
     width: 100% !important;
     height: 100% !important;
@@ -293,7 +303,7 @@ circle {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   /* min-height: 100vh; */
 }
 

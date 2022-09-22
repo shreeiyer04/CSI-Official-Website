@@ -170,8 +170,9 @@
 
   .store-product,
   .Heads,
-  .Web,
+  .Creative,
   .App,
+  .Logistic,
   .ML,
   .Design,
   .Social,
@@ -181,6 +182,7 @@
   }
 }
 
+.Logistic,
 .Creative,
 .App,
 .ML,
@@ -292,6 +294,7 @@
     height: 200px;
   }
 }
+
 
 @media screen and (max-width: 768px){
   .team_member{
