@@ -830,6 +830,7 @@ span {
   display: flex;
   flex-direction: row;
   height: 400px;
+  justify-content: space-around;
 }
 
 /* #v2{
