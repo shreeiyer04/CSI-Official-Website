@@ -145,6 +145,7 @@ p {
   .footer-social {
     width: 100% !important;
     text-align: center;
+    margin-left: 0% !important;
   }
   .footer-social p,
   h5 {
