@@ -275,7 +275,7 @@
   transition: ease 0.3s;
 }
 
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
 
   .store-product,
   .Heads,
@@ -288,7 +288,7 @@
     max-width: 10rem;
     display: flex;
   }
-}
+} */
 
 @media screen and (max-width: 1400px){
   .team_member{
