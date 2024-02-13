@@ -12,6 +12,7 @@
 
 .event-card-grid,
 .counter,
+.enigma,
 .inovation {
   font-family: 'Noto Sans JP', sans-serif;
 
@@ -276,6 +277,121 @@ circle {
     /* font-size: 25px; */
   }
   .inovation-inner-card-text {
+    width: 100%;
+  }
+  .imgm{
+    height: 100%;
+    width: 100%;
+  }
+  .imagem{
+    height: 50%;
+    margin-bottom: 5%;
+  }
+  .swiper-slide {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+/* --------- /inovation---------------------------------*/
+
+/* --------- enigma---------------------------------*/
+.u-clearfix1:before,
+.u-clearfix1:after {
+  content: " ";
+  display: table;
+}
+
+.u-clearfix1:after {
+  clear: both;
+}
+
+
+.enigma-card-main {
+  background-color: rgb(228 228 228 / 15%);
+  border-bottom: 2px solid rgba(225, 225, 225, 0.3);
+  border-left: 2px solid rgba(225, 225, 225, 0.1);
+  border-right: 1px solid rgba(225, 225, 225, 0.2);
+  padding: 2%;
+  box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 25px;
+  color: white;
+}
+
+.enigma-inner-card-text {
+  /* display: inline-block; */
+  text-align: justify;
+  text-justify: inter-word;
+  width: 40%;
+}
+
+/* .enigma-card-main:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+} */
+
+.enigma-card-title {
+  color: #fdfdfd;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 60px;
+  margin: 10px 0;
+}
+
+.enigma-inner-card-description {
+  display: inline-block;
+  color: #fff;
+  /* font-weight: 300; */
+  margin: 10px 20px 10px 0;
+}
+
+.enigma-card-slideshow {
+  border-radius: 25px;
+  width: 100%;
+  margin: 2rem 0;
+  height: 400px;
+}
+
+@media (max-width:1250px) {
+  .enigma-inner-card-text {
+    width: 90%;
+    display: inline-block
+  }
+
+  .enigma-card-slideshow {
+    border-radius: 25px;
+    width: 100%;
+    height: 90%;
+  }
+
+  .enigma-runnerup2{
+    width: 48%;
+    float: right;
+
+  }
+  .enigma-runnerup{
+    width: 48%;
+
+  }
+
+  .slideshow-main {
+    width: 80%;
+  }
+
+  .enigma-inner-card-description {
+    margin: 10px 0px 20px 0;
+  }
+
+}
+
+@media (max-width:426px) {
+  .enigma-inner-card-description {
+    /* font-size: 25px; */
+  }
+  .enigma-inner-card-text {
     width: 100%;
   }
   .imgm{
